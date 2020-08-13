@@ -30,7 +30,7 @@ namespace PairProgramGame
         private string GetMenuSelection()
         {
             Console.Clear();
-            Console.WriteLine($"Lives: {Lives}");
+            //Console.WriteLine($"Lives: {Lives}");
             Console.WriteLine("In a place far, far, far, far, farrrrrrrrrr away, you wake up, unsure of where you're at. Suddenly, words appear out of thin air in front of you! And yes, we are aware we're being extra melodramatic, but just go with it. Anyways, the message reads:");
             Thread.Sleep(6000);
             Console.Clear();
@@ -76,7 +76,7 @@ namespace PairProgramGame
         private void UserWentRightFirst()
         {
             Console.Clear();
-            Console.WriteLine($"Lives: {Lives}");
+            //Console.WriteLine($"Lives: {Lives}");
             Console.WriteLine(
                 "You went Right!\n" +
                 "Which way now?\n" +
@@ -107,7 +107,7 @@ namespace PairProgramGame
         private void WentRightOffTheBat()
         {
             Console.Clear();
-            Console.WriteLine($"Lives: {Lives}");
+            //Console.WriteLine($"Lives: {Lives}");
             Console.WriteLine(
                 "So you decided to follow your stomach. Can't say we blame ya.\n" +
                 "Now where do you go from here?\n" +
@@ -133,7 +133,7 @@ namespace PairProgramGame
         private void WentLeftOffTheBat()
         {
             Console.Clear();
-            Console.WriteLine($"Lives: {Lives}");
+            //Console.WriteLine($"Lives: {Lives}");
             Console.WriteLine(
                 "Where to next?\n" +
                 "1. Down the hallway towards the direction you feel a draft coming.\n" +
