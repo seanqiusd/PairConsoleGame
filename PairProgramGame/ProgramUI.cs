@@ -95,6 +95,7 @@ namespace PairProgramGame
                     break;
                 case "3":
                     Menu();
+                    //gittest
                     return;
             }
             Console.WriteLine("Press a key to return to menu...");
