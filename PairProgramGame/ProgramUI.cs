@@ -178,7 +178,7 @@ namespace PairProgramGame
         private void UserWentLeftFirst()
         {
             Console.Clear();
-            Console.WriteLine($"Lives: {Lives}");
+            //Console.WriteLine($"Lives: {Lives}");
             Console.WriteLine(
                 "You went Left\n" +
                 "Door Slammed Behind You!\n" +
@@ -201,7 +201,8 @@ namespace PairProgramGame
                     break;
                 default:
                     Console.WriteLine("We see what you're trying to do, but we're not gonna let ya."); // do we want every default to go right to the beginning? 
-                    Thread.Sleep(5000);
+                    Thread.Sleep(1000);
+                    //Console.ReadLine();
                     UserWentLeftFirst();
                     break;
             }
