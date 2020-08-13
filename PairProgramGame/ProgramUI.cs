@@ -32,8 +32,9 @@ namespace PairProgramGame
             Console.Clear();
             //Console.WriteLine($"Lives: {Lives}");
             Console.WriteLine("In a place far, far, far, far, farrrrrrrrrr away, you wake up, unsure of where you're at. Suddenly, words appear out of thin air in front of you! And yes, we are aware we're being extra melodramatic, but just go with it. Anyways, the message reads:");
-            Thread.Sleep(6000);
-            Console.Clear();
+            //Thread.Sleep(6000);
+            Console.WriteLine("Press any key to start.");
+            Console.ReadLine();
             Console.WriteLine(
                 "Hello, courageous adventurer! Welcome to Castle Saga!\n" +
                 "Select an Option!\n" +
